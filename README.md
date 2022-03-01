@@ -1,2 +1,2 @@
 # web444project
-nhtrjpfkrknklet;kkngmklnkmkpok;lmnklknkknklkkknkknkjiutgyunh4cem
+Сайт предназначен для размещения объявлений о различных событиях по разделам, с возможностью комментирования.
