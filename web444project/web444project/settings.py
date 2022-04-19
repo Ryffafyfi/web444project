@@ -80,6 +80,24 @@ DATABASES = {
     }
 }
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql', 
+        'NAME': 'databaseName',
+        'USER': 'databaseUser',
+        'PASSWORD': 'databasePassword',
+        'HOST': 'localhost',
+        'PORT': 'portNumber',
+        'OPTIONS': {
+            'driver': 'ODBC Driver 13 for SQL Server',
+            },  
+    },
+}
+
+# Algorithm
+# python manage.py makemigrations
+# python manage.py migrate
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
